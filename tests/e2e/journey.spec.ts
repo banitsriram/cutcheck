@@ -14,11 +14,11 @@ test("scan → readings → verdicts → try-on → look → kit → stylist car
   await page.getByRole("button", { name: "Continue" }).click();
   await expect(page).toHaveURL(/\/scan$/);
 
-  // US1: three shots via the upload fallback; each passes the gate on-device.
+  // three shots via the upload fallback; each passes the gate on-device.
   await uploadShots(page);
   await page.getByRole("button", { name: "Read my hair" }).click();
 
-  // US2: readings from the stand-in, clearly labelled; every reading is correctable.
+  // readings from the stand-in, clearly labelled; every reading is correctable.
   await expect(page).toHaveURL(/\/readings$/);
   await expect(page.getByText("readings come from a stand-in")).toBeVisible();
   await expect(page.getByRole("heading", { name: "Hair type" })).toBeVisible();
@@ -32,7 +32,7 @@ test("scan → readings → verdicts → try-on → look → kit → stylist car
     sessionStorage.setItem("cc.profile", JSON.stringify(p));
   });
 
-  // US3: verdicts with reasons; a ✗ shows the closest cut that works.
+  // verdicts with reasons; a ✗ shows the closest cut that works.
   await page.goto("/verdict");
   const comma = page.locator("#cut-textured-comma");
   await expect(comma).toContainText("Not your hair's cut");
@@ -43,7 +43,7 @@ test("scan → readings → verdicts → try-on → look → kit → stylist car
   await afro.locator("summary").click();
   await afro.getByRole("link", { name: "Try it on" }).click();
 
-  // US4: try-on with the colour-kept badge and honest label; the image comes via /api/image.
+  // try-on with the colour-kept badge and honest label; the image comes via /api/image.
   await expect(page.getByText("Your colour kept")).toBeVisible();
   await expect(page.getByText("Visual preview, not a guarantee of the real cut").first()).toBeVisible();
   const tryon = page.waitForResponse((r) => r.url().endsWith("/api/tryon/hair"));
@@ -53,17 +53,16 @@ test("scan → readings → verdicts → try-on → look → kit → stylist car
   await expect(page.getByRole("img", { name: "After" })).toBeVisible();
   await page.getByRole("link", { name: "See the full look" }).click();
 
-  // US5: separately consented full-body photo, then outfit and shoes for an occasion.
+  // separately consented full-body photo, then outfit and shoes for an occasion.
   await page.getByLabel("Use a full-body photo for this step").check();
   await page.locator('input[type="file"]').setInputFiles({ name: "body.jpg", mimeType: "image/jpeg", buffer: await noisePhoto(800, 1400) });
   await page.getByRole("button", { name: "Interview" }).click();
   await expect(page.getByRole("img", { name: "Classic black suit" })).toBeVisible();
   await expect(page.getByText("Done").first()).toBeVisible();
-  // Shoes need our own shoe photos in public/look/; until they exist the honest partial note shows.
-  await expect(page.getByText("Done").nth(1).or(page.getByText("The outfit worked, but the shoes didn't."))).toBeVisible();
+  await expect(page.getByText("Done").nth(1)).toBeVisible();
   await page.getByRole("link", { name: "Get the kit for this cut" }).click();
 
-  // US6: kit tied to readings, trim schedule, demo-store cart.
+  // kit tied to readings, trim schedule, demo-store cart.
   await expect(page.getByText("Picked for coily hair.").first()).toBeVisible();
   await expect(page.getByText(/Trim every 5 weeks/)).toBeVisible();
   await page.getByRole("button", { name: /Add kit to cart/ }).click();
@@ -84,7 +83,7 @@ test("scan → readings → verdicts → try-on → look → kit → stylist car
   expect(await cardPage.locator('img[src^="/api/image"], img[src^="blob:"]').count()).toBe(0);
   await cardPage.close();
 
-  // US8: delete everything, see what was removed, storage empty.
+  // delete everything, see what was removed, storage empty.
   await page.goto("/delete");
   await page.getByRole("button", { name: "Delete everything" }).click();
   await expect(page.getByRole("heading", { name: "Deleted" })).toBeVisible();

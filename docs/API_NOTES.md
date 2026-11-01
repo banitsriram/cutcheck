@@ -37,7 +37,7 @@ What we observed while building CutCheck against the YouCam API (India region, b
 ## Clothes VTO and Shoes VTO V3
 
 - **Clothes:** `POST /s2s/v2.0/task/cloth` takes a full-body source photo and either a garment reference image or a `template_id`. The outfit catalogue (`GET /s2s/v2.0/task/template/cloth`) has 250 templates. We use three masculine and three feminine ones, listed in [`data/looks.json`](../data/looks.json), and skip templates that carry a real brand name.
-- **Shoes V3:** `POST /s2s/v2.0/task/shoes-transfer` takes a source (`src_file_id` or `src_file_url`) and a shoe reference (`ref_file_id` or `ref_file_url`), and nothing else. We pass the clothes result as the source and our own shoe photo as the reference, so the shoes land on the outfit.
+- **Shoes V3:** `POST /s2s/v2.0/task/shoes-transfer` takes a source (`src_file_id` or `src_file_url`) and a shoe reference (`ref_file_id` or `ref_file_url`), and nothing else. We pass the clothes result as the source and a stock shoe photo as the reference, so the shoes land on the outfit.
 
 ## Units
 

@@ -89,7 +89,7 @@ export const barberCopy = {
   copy: "Copy",
   copied: "Copied",
   lines: (name: string, top: string, sides: string, notes: string) => [
-    `Hi! I'd like a ${name.toLowerCase()}, like the photo.`,
+    `Hi! I'd like the ${name.toLowerCase()}, like the photo.`,
     `On top: ${top}.`,
     `On the sides: ${sides}.`,
     `${notes}.`,

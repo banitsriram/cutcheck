@@ -158,6 +158,6 @@ Without a YouCam key the app uses a clearly labelled stand-in analyzer, which co
 
 ## Credits
 
-Cut drawings, product icons and demo illustrations are our own (`public/`), and the product brands are fictional. Style photos are YouCam hairstyle templates (`public/photos/`). Outfits are YouCam templates; the shoe photos are our own.
+Cut drawings, product icons and demo illustrations are our own (`public/`), and the product brands are fictional. Style photos are YouCam hairstyle templates (`public/photos/`). Outfits are YouCam templates. The shoe photos (`public/look/`) are free stock photos, cropped and resized by us: the white trainers by Ray Piedra on Pexels (Pexels License), the black leather shoe by Mark Rabe and the black ankle boot by mostafa mahmoudi, both on Unsplash (Unsplash License).
 
 *Cosmetic styling guidance, not medical advice.*

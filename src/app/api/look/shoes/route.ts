@@ -11,13 +11,13 @@ import { reserveFor, settleUnits } from "@/lib/security/spend";
 import { counterStore } from "@/lib/security/store";
 
 // POST /api/look/shoes: { occasion } → Shoes V3 on the outfit result, or on the body photo if the
-// outfit step failed (step 2 of 2). The shoe reference is our own catalogue photo.
+// outfit step failed (step 2 of 2). The shoe reference is a static photo in public/look/.
 
 export const maxDuration = 60;
 
 const bodySchema = z.object({ occasion: z.enum(LOOK_IDS) }).strict();
 
-/** Our own static shoe photo, fetched from this deployment (public files aren't in the function bundle). */
+/** The static shoe photo, fetched from this deployment (public files aren't in the function bundle). */
 async function shoePhoto(path: string, requestUrl: string): Promise<Buffer | null> {
   try {
     const res = await fetch(new URL(path, requestUrl), { signal: AbortSignal.timeout(5000) });

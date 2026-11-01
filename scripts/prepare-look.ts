@@ -2,7 +2,7 @@ import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 
-// Copies our own shoe photos from fixtures/private/look/ (gitignored) into public/look/
+// Copies the shoe reference photos from fixtures/private/look/ (gitignored) into public/look/
 // as the Look step's shoe references: EXIF/GPS stripped, re-encoded, at most 900 px.
 // Usage: npx tsx scripts/prepare-look.ts
 

@@ -1,7 +1,7 @@
 import { z } from "zod";
 import looksJson from "../../../data/looks.json";
 
-// Occasions for the Look step: a YouCam outfit template and our own shoe photo each.
+// Occasions for the Look step: a YouCam outfit template and a shoe photo each.
 
 const lookSchema = z
   .object({
