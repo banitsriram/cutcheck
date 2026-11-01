@@ -90,3 +90,10 @@ export const landingCopy = {
   },
   final: { eyebrow: "Ready when you are", cta: "Start your scan" },
 } as const;
+
+export const notFoundCopy = {
+  title: "This page doesn't exist",
+  intro: "The link may be mistyped or out of date. Your readings, if you have any, are still in this tab.",
+  home: "Back to the start",
+  demo: "See a demo",
+} as const;
