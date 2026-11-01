@@ -1,0 +1,21 @@
+[
+  {"id": "shampoo-light", "name": "Daily Light Shampoo", "brand": "Northcomb", "category": "Shampoo", "step": "wash", "forTypes": ["straight", "wavy"], "forConcerns": [], "priceInr": 349, "image": "/products/bottle.svg"},
+  {"id": "shampoo-hydrating", "name": "Moisture Wash", "brand": "Tidewell", "category": "Shampoo", "step": "wash", "forTypes": ["coily", "curly"], "forConcerns": [], "priceInr": 449, "image": "/products/bottle.svg"},
+  {"id": "shampoo-curl", "name": "Curl Cleanse", "brand": "Tidewell", "category": "Shampoo", "step": "wash", "forTypes": ["curly", "wavy"], "forConcerns": ["definition"], "priceInr": 429, "image": "/products/bottle.svg"},
+  {"id": "leave-in-conditioner", "name": "Leave-In Softener", "brand": "Tidewell", "category": "Conditioner", "step": "wash", "forTypes": ["coily", "curly"], "forConcerns": ["frizz"], "priceInr": 399, "image": "/products/bottle.svg"},
+  {"id": "blow-dry-primer", "name": "Blow-Dry Primer", "brand": "Northcomb", "category": "Prep spray", "step": "style", "forTypes": ["straight", "wavy"], "forConcerns": ["volume"], "priceInr": 379, "image": "/products/spray.svg"},
+  {"id": "sea-salt-spray", "name": "Sea Salt Texture Spray", "brand": "Saltline", "category": "Texture spray", "step": "style", "forTypes": ["wavy", "straight"], "forConcerns": ["volume"], "priceInr": 329, "image": "/products/spray.svg"},
+  {"id": "volume-mousse", "name": "Root Lift Mousse", "brand": "Northcomb", "category": "Mousse", "step": "style", "forTypes": ["straight", "wavy", "curly"], "forConcerns": ["volume"], "priceInr": 359, "image": "/products/spray.svg"},
+  {"id": "curl-cream", "name": "Curl Defining Cream", "brand": "Tidewell", "category": "Curl cream", "step": "style", "forTypes": ["curly", "coily"], "forConcerns": ["definition", "frizz"], "priceInr": 499, "image": "/products/jar.svg"},
+  {"id": "anti-frizz-serum", "name": "Smooth Finish Serum", "brand": "Saltline", "category": "Serum", "step": "finish", "forTypes": ["straight", "wavy", "curly", "coily"], "forConcerns": ["frizz"], "priceInr": 549, "image": "/products/bottle.svg"},
+  {"id": "texture-powder", "name": "Texture Powder", "brand": "Saltline", "category": "Styling powder", "step": "finish", "forTypes": ["straight", "wavy"], "forConcerns": ["volume"], "priceInr": 299, "image": "/products/jar.svg"},
+  {"id": "matte-clay", "name": "Matte Clay", "brand": "Northcomb", "category": "Clay", "step": "finish", "forTypes": ["straight", "wavy"], "forConcerns": [], "priceInr": 449, "image": "/products/jar.svg"},
+  {"id": "pomade-water", "name": "Water-Based Pomade", "brand": "Northcomb", "category": "Pomade", "step": "finish", "forTypes": ["straight", "wavy"], "forConcerns": [], "priceInr": 399, "image": "/products/jar.svg"},
+  {"id": "comb-wide", "name": "Wide-Tooth Comb", "brand": "Saltline", "category": "Comb", "step": "style", "forTypes": ["straight", "wavy", "curly"], "forConcerns": [], "priceInr": 149, "image": "/products/comb.svg"},
+  {"id": "afro-pick", "name": "Afro Pick", "brand": "Tidewell", "category": "Pick", "step": "style", "forTypes": ["coily", "curly"], "forConcerns": ["volume"], "priceInr": 179, "image": "/products/comb.svg"},
+  {"id": "curl-sponge", "name": "Twist Sponge", "brand": "Tidewell", "category": "Sponge", "step": "style", "forTypes": ["coily"], "forConcerns": ["definition"], "priceInr": 249, "image": "/products/sponge.svg"},
+  {"id": "silk-durag", "name": "Satin Wave Cap", "brand": "Tidewell", "category": "Night cap", "step": "finish", "forTypes": ["coily", "curly"], "forConcerns": ["frizz"], "priceInr": 299, "image": "/products/sponge.svg"},
+  {"id": "heat-protectant", "name": "Heat Shield Mist", "brand": "Northcomb", "category": "Heat protectant", "step": "style", "forTypes": ["straight", "wavy", "curly", "coily"], "forConcerns": ["frizz"], "priceInr": 399, "image": "/products/spray.svg"},
+  {"id": "smoothing-cream", "name": "Smoothing Cream", "brand": "Saltline", "category": "Smoothing cream", "step": "style", "forTypes": ["straight", "wavy"], "forConcerns": ["frizz"], "priceInr": 449, "image": "/products/jar.svg"},
+  {"id": "light-oil", "name": "Lightweight Ends Oil", "brand": "Tidewell", "category": "Hair oil", "step": "finish", "forTypes": ["straight", "wavy", "curly", "coily"], "forConcerns": ["frizz"], "priceInr": 499, "image": "/products/bottle.svg"}
+]

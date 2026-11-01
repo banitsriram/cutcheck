@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "textured-crop",
+    "name": "Textured crop",
+    "blurb": "Short, messy top with a little fringe and clean sides. Looks styled, takes two minutes.",
+    "aliases": [
+      "French crop",
+      "crop top"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "straight",
+        "wavy",
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "short"
+    },
+    "upkeep": {
+      "trimWeeks": 3,
+      "dailyMinutes": 3
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "texture-powder"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray",
+        "matte-clay"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "3–5 cm, heavily point-cut, short blunt fringe",
+      "sides": "Skin or #1 fade to the temples",
+      "notes": "Fringe sits just above the brow"
+    },
+    "referenceImage": "/photos/textured-crop.webp",
+    "hairStyleTemplateId": "male_textured_crop",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": false,
+    "curlyTemplate": {
+      "id": "male_short_curly",
+      "keepsColour": false
+    }
+  },
+  {
+    "id": "low-taper-fade",
+    "name": "Low taper fade",
+    "blurb": "Sides fade out just at the ears and neck, so it looks neat without looking shaved.",
+    "aliases": [
+      "low taper",
+      "taper fade"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "straight",
+        "wavy",
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "buzz"
+    },
+    "upkeep": {
+      "trimWeeks": 2,
+      "dailyMinutes": 2
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "matte-clay"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "matte-clay"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Leave the top as it is, or 3–6 cm with texture",
+      "sides": "Low taper: #0.5 → #2 starting just above the ear",
+      "notes": "Taper only at the sideburns and neckline; keep it low"
+    },
+    "referenceImage": "/photos/low-taper-fade.webp",
+    "hairStyleTemplateId": "all_messy_tapered_fade",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": false,
+    "curlyTemplate": {
+      "id": "male_short_curly",
+      "keepsColour": false
+    }
+  },
+  {
+    "id": "buzz-cut",
+    "name": "Buzz cut",
+    "blurb": "Clipped short all over. Zero styling, zero fuss. Just wake up and go.",
+    "aliases": [
+      "induction cut",
+      "crew buzz"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "straight",
+        "wavy",
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "buzz"
+    },
+    "upkeep": {
+      "trimWeeks": 2,
+      "dailyMinutes": 0
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light"
+      ],
+      "wavy": [
+        "shampoo-light"
+      ],
+      "curly": [
+        "shampoo-curl"
+      ],
+      "coily": [
+        "shampoo-hydrating"
+      ]
+    },
+    "barber": {
+      "top": "#2–#3 clipper all over",
+      "sides": "Same guard, or one guard shorter",
+      "notes": "Square or rounded neckline, whichever you prefer"
+    },
+    "referenceImage": "/photos/buzz-cut.webp",
+    "hairStyleTemplateId": "all_buzz_cut",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "all_buzz_cut",
+      "keepsColour": true
+    }
+  },
+  {
+    "id": "crew-cut",
+    "name": "Crew cut",
+    "blurb": "The classic short cut: a bit longer on top, tidy on the sides. Works almost anywhere.",
+    "aliases": [
+      "crewcut",
+      "ivy league"
+    ],
+    "trend2026": false,
+    "needs": {
+      "types": [
+        "straight",
+        "wavy",
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "short"
+    },
+    "upkeep": {
+      "trimWeeks": 3,
+      "dailyMinutes": 2
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "matte-clay"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "matte-clay"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "2–4 cm, slightly longer at the front",
+      "sides": "#2 tapered to #1 at the neck",
+      "notes": "Blend top into sides with scissor-over-comb"
+    },
+    "referenceImage": "/photos/crew-cut.webp",
+    "hairStyleTemplateId": "female_crewcut",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "male_short_curly",
+      "keepsColour": false
+    }
+  },
+  {
+    "id": "curly-top-taper",
+    "name": "Curly top taper",
+    "blurb": "Your curls stay on top, the sides go short. Keeps the curl, loses the bulk.",
+    "aliases": [
+      "afro taper",
+      "curly fade"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "curly",
+        "coily"
+      ],
+      "minDensity": "medium",
+      "minLength": "short"
+    },
+    "upkeep": {
+      "trimWeeks": 3,
+      "dailyMinutes": 4
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "sea-salt-spray"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner",
+        "curl-sponge"
+      ]
+    },
+    "barber": {
+      "top": "Keep 4–7 cm of curl; shape it without taking bulk out",
+      "sides": "Taper #1 → #3 from the ear up",
+      "notes": "Cut curls dry so the shape shows"
+    },
+    "referenceImage": "/photos/curly-top-taper.webp",
+    "hairStyleTemplateId": "male_short_curly",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": false,
+    "curlyTemplate": {
+      "id": "male_short_curly",
+      "keepsColour": false
+    }
+  },
+  {
+    "id": "afro",
+    "name": "Afro",
+    "blurb": "Your natural curls grown out and shaped into a full, round outline.",
+    "aliases": [
+      "rounded afro",
+      "natural afro"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "curly",
+        "coily"
+      ],
+      "minDensity": "high",
+      "minLength": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 5,
+      "dailyMinutes": 6
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "texture-powder"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream",
+        "afro-pick"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner",
+        "afro-pick"
+      ]
+    },
+    "barber": {
+      "top": "Shape into a round, even outline; take off only the ends",
+      "sides": "Same length as the top, or a low taper at the temples",
+      "notes": "Pick out before shaping; cut dry"
+    },
+    "referenceImage": "/photos/afro.webp",
+    "hairStyleTemplateId": "male_afro",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "male_afro",
+      "keepsColour": true
+    }
+  },
+  {
+    "id": "textured-comma",
+    "name": "Textured comma",
+    "blurb": "A longer fringe that curls under at the front, like a comma. Soft and K-pop inspired.",
+    "aliases": [
+      "comma hair",
+      "K-style fringe"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "straight",
+        "wavy"
+      ],
+      "minDensity": "medium",
+      "minLength": "medium",
+      "maxFrizz": "low"
+    },
+    "upkeep": {
+      "trimWeeks": 4,
+      "dailyMinutes": 6
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "blow-dry-primer",
+        "matte-clay"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "blow-dry-primer",
+        "pomade-water"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Front 8–10 cm, layered so the fringe curves in",
+      "sides": "Scissor or #3 over the ear, softly tapered",
+      "notes": "Fringe swept to one side and curled under in a comma shape"
+    },
+    "referenceImage": "/photos/textured-comma.webp",
+    "hairStyleTemplateId": "male_textured_comma",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": true
+  },
+  {
+    "id": "wavy-undercut",
+    "name": "Wavy undercut",
+    "blurb": "Long, wavy top that falls over very short sides. Big contrast, lots of movement.",
+    "aliases": [
+      "undercut",
+      "disconnected undercut"
+    ],
+    "trend2026": false,
+    "needs": {
+      "types": [
+        "wavy",
+        "curly"
+      ],
+      "minDensity": "medium",
+      "minLength": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 4,
+      "dailyMinutes": 4
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "sea-salt-spray"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray",
+        "matte-clay"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "8–12 cm, layered to keep the wave",
+      "sides": "#1–#2 undercut, disconnected from the top",
+      "notes": "Keep weight on top so waves fall over the sides"
+    },
+    "referenceImage": "/photos/wavy-undercut.webp",
+    "hairStyleTemplateId": "male_wavy_undercut",
+    "audience": [
+      "men"
+    ],
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "male_short_curly",
+      "keepsColour": false
+    }
+  },
+  {
+    "id": "wolf-cut",
+    "name": "Wolf cut",
+    "blurb": "Choppy, shaggy layers with lift on top and length at the back. Wild on purpose.",
+    "aliases": [
+      "shag mullet"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "wavy",
+        "curly"
+      ],
+      "minDensity": "medium",
+      "minLength": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 6,
+      "dailyMinutes": 5
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "texture-powder"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Heavy choppy layers, crown kept short for lift",
+      "sides": "Layered over the ear; length kept at the back",
+      "notes": "Shaggy, textured fringe; mullet-like back"
+    },
+    "referenceImage": "/photos/wolf-cut.webp",
+    "hairStyleTemplateId": "all_wolf_cut",
+    "audience": [
+      "men",
+      "women"
+    ],
+    "keepsColour": true
+  },
+  {
+    "id": "curtains",
+    "name": "Curtains",
+    "blurb": "A middle part with the fringe falling to both sides, like opening curtains. Very 90s.",
+    "aliases": [
+      "middle part",
+      "curtain fringe"
+    ],
+    "trend2026": true,
+    "needs": {
+      "types": [
+        "straight",
+        "wavy"
+      ],
+      "minDensity": "medium",
+      "minLength": "medium",
+      "maxFrizz": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 6,
+      "dailyMinutes": 7
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "blow-dry-primer",
+        "comb-wide"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray",
+        "comb-wide"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Front 10–12 cm reaching the cheekbone, layered",
+      "sides": "Scissor cut over the ear",
+      "notes": "Centre part; fringe falls to both sides. On longer hair, keep the length and layer the front"
+    },
+    "referenceImage": "/photos/curtains.webp",
+    "hairStyleTemplateId": "all_curtain_wavy",
+    "audience": [
+      "men",
+      "women"
+    ],
+    "keepsColour": true
+  },
+  {
+    "id": "blunt-bob",
+    "name": "Blunt bob",
+    "blurb": "One sharp, even length around the jaw. Clean, bold and easy to recognise.",
+    "aliases": [
+      "one-length bob",
+      "chin bob"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "straight",
+        "wavy"
+      ],
+      "minDensity": "medium",
+      "minLength": "medium",
+      "maxFrizz": "low"
+    },
+    "upkeep": {
+      "trimWeeks": 6,
+      "dailyMinutes": 6
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "heat-protectant",
+        "smoothing-cream"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "heat-protectant",
+        "smoothing-cream"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "One length at the jaw, about 20–25 cm from the crown",
+      "sides": "Same length all round; no layers",
+      "notes": "Cut dry for a sharp line; ask for a slight tilt to the front"
+    },
+    "referenceImage": "/photos/blunt-bob.webp",
+    "hairStyleTemplateId": "female_blunt_bob",
+    "keepsColour": true
+  },
+  {
+    "id": "sleek-middle-part",
+    "name": "Sleek middle part",
+    "blurb": "Long, smooth hair parted down the middle. Simple, polished, red-carpet calm.",
+    "aliases": [
+      "glass hair",
+      "straight centre part"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "straight",
+        "wavy"
+      ],
+      "minDensity": "medium",
+      "minLength": "long",
+      "maxFrizz": "low"
+    },
+    "upkeep": {
+      "trimWeeks": 8,
+      "dailyMinutes": 10
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "heat-protectant",
+        "light-oil"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "heat-protectant",
+        "smoothing-cream",
+        "light-oil"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Below the shoulders, ends kept blunt",
+      "sides": "Face-framing kept minimal so it lies flat",
+      "notes": "Centre part; ask for a dusting of the ends only"
+    },
+    "referenceImage": "/photos/sleek-middle-part.webp",
+    "hairStyleTemplateId": "female_sleek_middle_part",
+    "keepsColour": true
+  },
+  {
+    "id": "side-part-straight",
+    "name": "Side-part straight",
+    "blurb": "Long straight hair with a deep side part that sweeps across your face.",
+    "aliases": [
+      "deep side part",
+      "sleek side part"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "straight"
+      ],
+      "minDensity": "low",
+      "minLength": "medium",
+      "maxFrizz": "low"
+    },
+    "upkeep": {
+      "trimWeeks": 8,
+      "dailyMinutes": 8
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "heat-protectant",
+        "light-oil"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "smoothing-cream"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Shoulder length or longer, long soft layers",
+      "sides": "Longer on the heavy side of the part",
+      "notes": "Deep side part; cut the front so it sweeps across"
+    },
+    "referenceImage": "/photos/side-part-straight.webp",
+    "hairStyleTemplateId": "female_side_part_straight",
+    "keepsColour": true
+  },
+  {
+    "id": "long-layers",
+    "name": "Soft layers",
+    "blurb": "Long hair with soft layers around the face, so it moves instead of hanging flat.",
+    "aliases": [
+      "flipped layers",
+      "long layered cut"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "straight",
+        "wavy"
+      ],
+      "minDensity": "low",
+      "minLength": "long"
+    },
+    "upkeep": {
+      "trimWeeks": 10,
+      "dailyMinutes": 5
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "volume-mousse"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "Below the shoulders; layers start at the chin",
+      "sides": "Face-framing layers from the cheekbone",
+      "notes": "Ends flicked out; keep at least 5 cm of length off the bottom"
+    },
+    "referenceImage": "/photos/long-layers.webp",
+    "hairStyleTemplateId": "all_soft_flipped_layers",
+    "keepsColour": true
+  },
+  {
+    "id": "shag",
+    "name": "Shag",
+    "blurb": "Lots of choppy layers and a wispy fringe for a messy, rock-and-roll volume.",
+    "aliases": [
+      "curly shag",
+      "modern shag"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "wavy",
+        "curly",
+        "coily"
+      ],
+      "minDensity": "high",
+      "minLength": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 8,
+      "dailyMinutes": 6
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "texture-powder"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "sea-salt-spray",
+        "volume-mousse"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner",
+        "afro-pick"
+      ]
+    },
+    "barber": {
+      "top": "Short choppy crown layers, length at the collar or below",
+      "sides": "Layered through the sides",
+      "notes": "Wispy fringe; cut curls dry so the layers stack"
+    },
+    "referenceImage": "/photos/shag.webp",
+    "hairStyleTemplateId": "all_wavy_shag",
+    "keepsColour": true
+  },
+  {
+    "id": "pixie",
+    "name": "Pixie",
+    "blurb": "Very short and textured, with a soft fringe. Bold, light and quick to dry.",
+    "aliases": [
+      "pixie crop",
+      "short pixie"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "straight",
+        "wavy",
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "short"
+    },
+    "upkeep": {
+      "trimWeeks": 4,
+      "dailyMinutes": 3
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "texture-powder"
+      ],
+      "wavy": [
+        "shampoo-light",
+        "matte-clay"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner"
+      ]
+    },
+    "barber": {
+      "top": "3–6 cm, textured, longer at the fringe",
+      "sides": "Short and close over the ears, scissor-cut",
+      "notes": "Soft, wispy fringe; tidy the neckline every 4 weeks"
+    },
+    "referenceImage": "/photos/pixie.webp",
+    "hairStyleTemplateId": "all_pixie",
+    "keepsColour": true
+  },
+  {
+    "id": "bouncy-curls",
+    "name": "Bouncy curls",
+    "blurb": "Shoulder-length curls cut in rounded layers so they bounce instead of puffing out.",
+    "aliases": [
+      "defined curls",
+      "curly layers"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 10,
+      "dailyMinutes": 8
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "volume-mousse"
+      ],
+      "wavy": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream",
+        "light-oil"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner",
+        "curl-cream"
+      ]
+    },
+    "barber": {
+      "top": "Shoulder length, rounded curly layers",
+      "sides": "Layered so curls stack, not pyramid",
+      "notes": "Cut curl by curl, dry; take off only the ends"
+    },
+    "referenceImage": "/photos/bouncy-curls.webp",
+    "hairStyleTemplateId": "female_bouncy_curls",
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "female_bouncy_curls",
+      "keepsColour": true
+    }
+  },
+  {
+    "id": "curly-bob",
+    "name": "Curly bob",
+    "blurb": "A jaw-length bob cut for curls, rounded so the shape sits full, not triangular.",
+    "aliases": [
+      "curly lob",
+      "rounded curly bob"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "curly",
+        "coily"
+      ],
+      "minDensity": "low",
+      "minLength": "medium"
+    },
+    "upkeep": {
+      "trimWeeks": 8,
+      "dailyMinutes": 6
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "volume-mousse"
+      ],
+      "wavy": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "curl-cream",
+        "light-oil"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner",
+        "curl-cream"
+      ]
+    },
+    "barber": {
+      "top": "Jaw length when dry, rounded outline",
+      "sides": "Light internal layers so curls don't stack into a triangle",
+      "notes": "Cut dry, curl by curl; allow for shrinkage"
+    },
+    "referenceImage": "/photos/curly-bob.webp",
+    "hairStyleTemplateId": "female_bobcut_curly",
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "female_bobcut_curly",
+      "keepsColour": true
+    }
+  },
+  {
+    "id": "spiral-curls",
+    "name": "Long spiral curls",
+    "blurb": "Long, defined spirals with long layers so the length hangs instead of puffing out.",
+    "aliases": [
+      "long curly layers",
+      "spiral layers"
+    ],
+    "trend2026": true,
+    "audience": [
+      "women"
+    ],
+    "needs": {
+      "types": [
+        "curly",
+        "coily"
+      ],
+      "minDensity": "medium",
+      "minLength": "long"
+    },
+    "upkeep": {
+      "trimWeeks": 12,
+      "dailyMinutes": 10
+    },
+    "productsByType": {
+      "straight": [
+        "shampoo-light",
+        "volume-mousse"
+      ],
+      "wavy": [
+        "shampoo-curl",
+        "curl-cream"
+      ],
+      "curly": [
+        "shampoo-curl",
+        "leave-in-conditioner",
+        "curl-cream"
+      ],
+      "coily": [
+        "shampoo-hydrating",
+        "leave-in-conditioner",
+        "curl-cream"
+      ]
+    },
+    "barber": {
+      "top": "Long layers, length kept below the shoulders",
+      "sides": "Face-framing curls from the cheekbone down",
+      "notes": "Cut dry, curl by curl; trim only the ends"
+    },
+    "referenceImage": "/photos/spiral-curls.webp",
+    "hairStyleTemplateId": "female_long_spiral_curls",
+    "keepsColour": true,
+    "curlyTemplate": {
+      "id": "female_long_spiral_curls",
+      "keepsColour": true
+    }
+  }
+]

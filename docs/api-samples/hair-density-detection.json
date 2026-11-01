@@ -1,0 +1,12 @@
+{
+  "latency_ms": 7947,
+  "response": {
+    "status": 200,
+    "data": {
+      "error": "unknown_internal_error",
+      "error_message": "failed to input source image to process",
+      "results": null,
+      "task_status": "error"
+    }
+  }
+}

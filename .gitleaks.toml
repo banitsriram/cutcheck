@@ -1,0 +1,16 @@
+title = "CutCheck gitleaks config"
+
+[extend]
+useDefault = true
+
+# Catch our own env var names if a value is ever pasted next to them.
+[[rules]]
+id = "cutcheck-env-assignment"
+description = "CutCheck secret env var with a value"
+regex = '''(?i)\b(YOUCAM_API_KEY|YOUCAM_API_SECRET|SESSION_SECRET|CARD_SECRET|JUDGE_CODE|UPSTASH_REDIS_REST_TOKEN|TURNSTILE_SECRET|SHOPIFY_STOREFRONT_TOKEN)\s*[=:]\s*["']?([A-Za-z0-9_\-+/=.]{12,})'''
+secretGroup = 2
+
+[allowlist]
+description = "Names only: the example env file, and env lookups like env.KV_REST_API_TOKEN"
+paths = ['''\.env\.example$''']
+regexes = ['''^env\.[A-Z_]+$''']

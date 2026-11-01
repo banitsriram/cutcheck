@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/* "elsewhere" direction: cream paper, plum ink, coral action, handwritten notes.
+   Every text/background pair below meets WCAG AA (4.5:1) in both themes (checked 2026-11-01). */
+:root {
+  --background: #f6efe6;
+  --surface: #fffaf4;
+  --foreground: #2a1330; /* plum ink, 14.9:1 */
+  --muted: #6a5560; /* 6.0:1 on background */
+  --line: #e6d9cc;
+  --accent: #b83a27; /* coral; 5.0:1 on background, white text 5.7:1 */
+  --accent-ink: #ffffff;
+  --blush: #f3d9cf;
+  --ok: #1f6b3a;
+  --ok-bg: #e3f1e3;
+  --warn: #8a4b0c;
+  --warn-bg: #fbecd2;
+  --no: #a2261b;
+  --no-bg: #fbe0da;
+  --unknown: #4a3f47;
+  --unknown-bg: #ece3dc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-blush: var(--blush);
+  --color-ok: var(--ok);
+  --color-ok-bg: var(--ok-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --color-no: var(--no);
+  --color-no-bg: var(--no-bg);
+  --color-unknown: var(--unknown);
+  --color-unknown-bg: var(--unknown-bg);
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Dark follows the studio page around the concept: night ink, warm paper text, soft coral. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #14111a;
+    --surface: #1e1923;
+    --foreground: #f4efe8;
+    --muted: #b9aab2; /* 8.4:1 */
+    --line: #2f2834;
+    --accent: #ff8a70; /* dark ink 7.8:1 */
+    --accent-ink: #2a0e08;
+    --blush: #3a2730;
+    --ok: #8fd9a3;
+    --ok-bg: #10291a;
+    --warn: #f5c27a;
+    --warn-bg: #33220b;
+    --no: #ff9c8c;
+    --no-bg: #3a1210;
+    --unknown: #d8ccd2;
+    --unknown-bg: #2c2530;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Shared control styles (Tailwind v4 custom utilities) */
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-[transform,background-color,color] duration-200 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-accent text-accent-ink shadow-[0_8px_24px_-12px_var(--accent)] hover:brightness-110;
+}
+@utility btn-secondary {
+  @apply btn border border-foreground/15 bg-surface text-foreground hover:border-foreground/40;
+}
+@utility card {
+  @apply rounded-3xl border border-line bg-surface p-5;
+}
+/* Small tracked caps, like "PRODUCT DESIGN" on the reference. */
+@utility eyebrow {
+  @apply text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted;
+}
+@utility font-display {
+  font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+}
+@utility font-hand {
+  font-family: var(--font-caveat), "Bradley Hand", cursive;
+}
+
+/* Failsafe: the intro overlay can never outlive 4 s, even if its script never runs. */
+@keyframes intro-failsafe {
+  to {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+@utility intro-failsafe {
+  animation: intro-failsafe 0s 4s forwards;
+}

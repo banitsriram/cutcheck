@@ -1,0 +1,12 @@
+{
+  "latency_ms": 12262,
+  "response": {
+    "status": 200,
+    "data": {
+      "error": "error_no_face",
+      "error_message": "No face was detected in the source image.",
+      "results": null,
+      "task_status": "error"
+    }
+  }
+}

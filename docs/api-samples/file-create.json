@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "data": {
+    "files": [
+      {
+        "content_type": "image/jpeg",
+        "file_name": "probe.jpg",
+        "file_id": "<redacted>",
+        "requests": [
+          {
+            "method": "PUT",
+            "url": "<redacted>",
+            "headers": {
+              "Content-Length": "110793",
+              "Content-Type": "image/jpeg"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

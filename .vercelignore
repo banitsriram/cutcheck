@@ -1,0 +1,8 @@
+.next-e2e
+test-results
+playwright-report
+fixtures/private
+docs/api-samples/raw
+.env*
+!.env.example
+tsconfig.tsbuildinfo

@@ -1,0 +1,16 @@
+{
+  "latency_ms": 16577,
+  "response": {
+    "status": 200,
+    "data": {
+      "error": null,
+      "results": {
+        "hair_frizziness": {
+          "mapping": 2,
+          "term": "Frizzy"
+        }
+      },
+      "task_status": "success"
+    }
+  }
+}

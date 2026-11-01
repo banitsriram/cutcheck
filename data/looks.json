@@ -1,0 +1,50 @@
+[
+  {
+    "id": "everyday",
+    "name": "Everyday",
+    "outfit": "Smart casual",
+    "clothTemplateId": "smart_casual_mix_masculine",
+    "shoeImage": "/look/shoes-everyday.jpg",
+    "style": "masculine"
+  },
+  {
+    "id": "interview",
+    "name": "Interview",
+    "outfit": "Classic black suit",
+    "clothTemplateId": "classic_black_suit_masculine_2",
+    "shoeImage": "/look/shoes-interview.jpg",
+    "style": "masculine"
+  },
+  {
+    "id": "night-out",
+    "name": "Night out",
+    "outfit": "Dark rider jacket",
+    "clothTemplateId": "midnight_rider_masculine",
+    "shoeImage": "/look/shoes-nightout.jpg",
+    "style": "masculine"
+  },
+  {
+    "id": "everyday-feminine",
+    "name": "Everyday",
+    "outfit": "Denim waistcoat and wide-leg jeans",
+    "clothTemplateId": "denim_duo_feminine",
+    "shoeImage": "/look/shoes-everyday.jpg",
+    "style": "feminine"
+  },
+  {
+    "id": "interview-feminine",
+    "name": "Interview",
+    "outfit": "Tailored long blazer",
+    "clothTemplateId": "tailored_trouble_feminine_edgy",
+    "shoeImage": "/look/shoes-interview.jpg",
+    "style": "feminine"
+  },
+  {
+    "id": "night-out-feminine",
+    "name": "Night out",
+    "outfit": "Leather jacket",
+    "clothTemplateId": "city_maverick_feminine",
+    "shoeImage": "/look/shoes-nightout.jpg",
+    "style": "feminine"
+  }
+]

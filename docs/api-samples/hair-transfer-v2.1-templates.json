@@ -1,0 +1,26 @@
+{
+  "count": 116,
+  "sample": [
+    {
+      "id": "<redacted>",
+      "thumb": "<redacted>",
+      "title": "Short Curly",
+      "category_name": "Male",
+      "keep_users_color": false
+    },
+    {
+      "id": "<redacted>",
+      "thumb": "<redacted>",
+      "title": "Sleek Middle Part",
+      "category_name": "Female",
+      "keep_users_color": true
+    },
+    {
+      "id": "<redacted>",
+      "thumb": "<redacted>",
+      "title": "Blunt Bob",
+      "category_name": "Female",
+      "keep_users_color": true
+    }
+  ]
+}
